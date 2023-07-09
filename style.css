@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    background-color: #c7b6ae;
+      width: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+     background-color: #1A1E3D;
+     position: fixed;
+     top: 0;
+     font-family: 'Sofia Sans Semi Condensed', sans-serif;
+       }
+
+
+.sectionOne{
+  background-color: #53687c;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    }
+
+.header{
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+margin: auto;
+color:beige;
+text-shadow: 2px 2px brown;
+}
+h1{
+  font-size: 80px;
+}
+.sectionTwo{
+    margin-top: 100px;
+  padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+
+}
+.resume{
+margin-right: 10%;
+font-family: 'Sofia Sans Semi Condensed',sans-serif;
+color: #1A1E3D;
+}
+.contact {
+    text-decoration: none;
+color:#1A1E3D;
+}
+
+ul{
+   list-style-type:disc;
+}
+.headerTwo{
+margin-left: 27%;
+margin-top: 12%;
+font-size: 40px;
+}
+.list{
+  margin-left: 20%;
+
+}
+.sectionThree{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+margin-right: 5%;
+    font-family: 'Sofia Sans Semi Condensed',sans-serif;
+    color: #1A1E3D;
+}
+
+.headerThree{
+    margin-left: 25px;
+    margin-top: 25%;
+    font-size: 40px;
+}
+
+.sectionFour{
+      display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+    margin-top: 100px;
+padding-top: 50px;
+      
+}
+.slider{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .slider:hover{
+    transform: scale(2);
+  }
+
+
+
+  .video{
+    margin-top: 230px;
+    background-color: aqua;
+    padding: 50px;
+   
+  }
+
+  .sectionSix{
+    margin-top: 50px;
+  }
+  .sectionSix{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+padding: 10px;
+font-family: 'Sofia Sans Semi Condensed',sans-serif;
+color: #1A1E3D;
+
+  }
+
+.textSection{
+  margin: 0;
+}
+    .about,  .aboutTwo{
+      box-shadow:  1px 6px 25px 12px rgba(110, 55, 48, 0.37);
+    }
+  
+    footer{
+      background-color:#1A1E3D ;
+      padding: 10px;
+      margin-top: 50px;
+    }
+
+
