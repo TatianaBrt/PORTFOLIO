@@ -1,7 +1,8 @@
 body{
     margin: 0;
     background-color: #c7b6ae;
-      width: 100%;
+ 
+
 }
 
 nav{
@@ -16,9 +17,9 @@ nav{
 
 .sectionOne{
   background-color: #53687c;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+   display: flex;
+  justify-content: center;
+flex-wrap: wrap;
     }
 
 .header{
@@ -36,8 +37,6 @@ h1{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-
-
 }
 .resume{
 margin-right: 10%;
@@ -96,14 +95,11 @@ padding-top: 50px;
     transform: scale(2);
   }
 
-
-
   .video{
     margin-top: 230px;
     background-color: aqua;
     padding: 50px;
-   
-  }
+     }
 
   .sectionSix{
     margin-top: 50px;
@@ -132,37 +128,4 @@ color: #1A1E3D;
     }
 
 
-    @media all and (max-width:820px){
-  .skill{
-    margin-right: 120px;
-    font-size: 22px;
-  }
-  .sectionOne{
-        display: flex;
-     justify-content: center;
-      }
-      .textHeader{
-      font-size: 40px;
-      margin-right: 80px;
-      }
-      .aboutTwo{
-        margin-top: 60px;
-      }
-    .resume{
-      font-size: 25px;
-      margin-top: 30px;
-    }
-    .contact{
-      font-size: 22px;
-       }
-        }
-
-
-        @media all and (max-width:800px){
-            .textHeader{
-            margin-right: 30px;
-          font-size: 40px;
-          }
-         
-        }
-            
+    
