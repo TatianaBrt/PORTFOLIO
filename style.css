@@ -23,13 +23,16 @@ flex-wrap: wrap;
     }
 
 .header{
-    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+    font-family:  'Rubik Dirt', cursive;
 margin: auto;
 color:beige;
-text-shadow: 2px 2px brown;
+
 }
 h1{
   font-size: 80px;
+ }
+h2{
+  font-family: 'Rubik Dirt', cursive;
 }
 .sectionTwo{
     margin-top: 100px;
@@ -41,11 +44,11 @@ h1{
 .resume{
 margin-right: 10%;
 font-family: 'Sofia Sans Semi Condensed',sans-serif;
-color: #1A1E3D;
+color: #141d56;
 }
 .contact {
     text-decoration: none;
-color:#1A1E3D;
+color:#141d56;
 }
 
 ul{
@@ -58,7 +61,6 @@ font-size: 40px;
 }
 .list{
   margin-left: 20%;
-
 }
 .sectionThree{
     margin-top: 10px;
@@ -66,8 +68,8 @@ font-size: 40px;
     flex-wrap: wrap;
     justify-content: space-around;
 margin-right: 5%;
-    font-family: 'Sofia Sans Semi Condensed',sans-serif;
-    color: #1A1E3D;
+    font-family:'Sofia Sans Semi Condensed', sans-serif;
+    color: #141d56;
 }
 
 .headerThree{
@@ -110,15 +112,21 @@ padding-top: 50px;
  align-items: center;
 padding: 10px;
 font-family: 'Sofia Sans Semi Condensed',sans-serif;
-color: #1A1E3D;
-
+color: #141d56;
   }
 
+  .vk{
+    margin-top: 10px;
+  }
 .textSection{
   margin: 0;
 }
     .about,  .aboutTwo{
       box-shadow:  1px 6px 25px 12px rgba(110, 55, 48, 0.37);
+    }
+
+    .aboutTwo{
+      margin-top: 40px;
     }
   
     footer{
@@ -129,3 +137,28 @@ color: #1A1E3D;
 
 
     
+
+
+    @media screen and (max-width: 800px){
+    nav{
+      font-size: 5px;
+        }
+    h1{
+      font-size: 30px;
+    }
+    }
+
+
+
+    @media screen and (max-width: 500px){
+      nav{
+        font-size: 5px;
+          }
+      h1{
+        font-size: 30px;
+      }
+
+      .headerThree{
+        font-size: 30px;
+      }
+         }
