@@ -156,10 +156,10 @@ color: #141d56;
 
     @media screen and (max-width: 500px){
       nav{
-        font-size: 5px;
+        font-size: 8px;
           }
       h1{
-        font-size: 40px;
+        font-size: 30px;
       }
       .headerThree{
         font-size: 30px;
