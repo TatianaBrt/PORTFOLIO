@@ -42,7 +42,7 @@ h2{
     flex-wrap: wrap;
 }
 .resume{
-margin-right: 10%;
+  margin-right: 10%;
 font-family: 'Sofia Sans Semi Condensed',sans-serif;
 color: #141d56;
 }
@@ -60,14 +60,17 @@ margin-top: 12%;
 font-size: 40px;
 }
 .list{
-  margin-left: 20%;
+margin-right: 10%;
+}
+.skill{
+  font-size: 15px;
 }
 .sectionThree{
     margin-top: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-margin-right: 5%;
+    margin-right: 2%;
     font-family:'Sofia Sans Semi Condensed', sans-serif;
     color: #141d56;
 }
@@ -97,14 +100,14 @@ padding-top: 50px;
     transform: scale(2);
   }
 
-  .video{
-    margin-top: 230px;
-    background-color: aqua;
-    padding: 50px;
+  #video{
+    margin-top:100px;
+    display: flex;
+    justify-content: center;
      }
 
   .sectionSix{
-    margin-top: 50px;
+    margin-top: 200px;
   }
   .sectionSix{
  display: flex;
@@ -128,14 +131,15 @@ color: #141d56;
     .aboutTwo{
       margin-top: 40px;
     }
-  
+
+   
     footer{
       background-color:#1A1E3D ;
       padding: 10px;
       margin-top: 50px;
     }
 
-
+  
     
 
 
@@ -155,10 +159,27 @@ color: #141d56;
         font-size: 5px;
           }
       h1{
-        font-size: 30px;
+        font-size: 40px;
       }
-
       .headerThree{
         font-size: 30px;
+        margin-top: 60px;
       }
+           .sectionTwo{
+        font-size: 14px;
+       
+      }
+      .sectionThree{
+        font-size: 13px;
+     
+      }
+.list{
+margin: auto;
+margin-top: 30px;
+}
+.skill{
+  font-size: 14px;
+}
+
+
          }
