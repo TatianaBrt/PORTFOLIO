@@ -100,7 +100,7 @@ padding-top: 50px;
     transform: scale(2);
   }
 
-  #video{
+  .vlink{
     margin-top:100px;
     display: flex;
     justify-content: center;
@@ -148,7 +148,7 @@ color: #141d56;
       font-size: 5px;
         }
     h1{
-      font-size: 30px;
+      font-size: 20px;
     }
     }
 
@@ -156,10 +156,10 @@ color: #141d56;
 
     @media screen and (max-width: 500px){
       nav{
-        font-size: 5px;
+        font-size: 8px;
           }
       h1{
-        font-size: 40px;
+        font-size: 30px;
       }
       .headerThree{
         font-size: 30px;
