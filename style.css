@@ -138,6 +138,10 @@ color: #141d56;
       padding: 10px;
       margin-top: 50px;
     }
+    #video{
+      display: flex;
+      justify-content: center;
+    }
 
   
     
