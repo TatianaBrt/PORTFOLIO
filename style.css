@@ -139,7 +139,10 @@ color: #141d56;
       margin-top: 50px;
     }
 
-  
+  #video{
+      display: flex;
+    justify-content: center;
+  }
     
 
 
